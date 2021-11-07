@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input type="text" id="my_field" name="Name" placeholder="Enter Your Name"/>
+<br>
+<button onclick="let x=document.getElementById('my_field').disabled; document.getElementById('my_field').disabled=!x;">Disable</button>
+<script>
+  function disable(){
+	document.getElementById("my_field").disabled = "true";
+  }
+</script>
+</body>
+</html>
